@@ -1,0 +1,69 @@
+.loginPage {
+  background-color: #f6f6f6;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  border: 1px solid silver;
+  background-color: #fff;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+
+.loginCard h2 {
+  color: rgb(93, 93, 93);
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f9d58;
+  padding: 15px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button span{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background: #fff;
+    border:  1px solid #0f9d58;
+}
+
+.button:hover span{
+    color: #0f9d58;
+}
+
+.A {
+  color: #f07704;
+}
+
+.r {
+  color: #dc0203;
+}
+
+.a {
+  color: #923e94;
+}
+
+.s {
+  color: #1118b1;
+}
+
+.h {
+  color: #11932f;
+}
